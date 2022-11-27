@@ -75,6 +75,7 @@ describe("clearTodos", () => {
   });
   test("should call createHtml", () => {
     //arrange
+
     let spy = jest.spyOn(functionsInMain, "createHtml").mockReturnValue();
     let todos: Todo[] = [new Todo("inlämning", false)];
     //act
